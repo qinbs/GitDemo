@@ -11,6 +11,8 @@
 @interface ViewController ()
 
 @property(nonatomic,assign) NSInteger sum;
+@property(nonatomic,strong) TestClass *testClass;
+
 @end
 
 @implementation ViewController
